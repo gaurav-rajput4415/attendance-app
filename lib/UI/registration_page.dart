@@ -179,7 +179,6 @@ class _RegisterState extends State<Register> {
                       padding: EdgeInsets.all(12),
                       child: TextField(
                         controller: _mobilenoTextFieldController,
-                        maxLength: 10,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(),
                           labelText: 'Mobile No',
